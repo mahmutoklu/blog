@@ -1,0 +1,4 @@
+[submodule "oklumahmut/submodule"]
+	path = oklumahmut/submodule
+	url = https://github.com/mahmutoklu/oklumahmut.github.io.git
+	branch = main
