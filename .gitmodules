@@ -2,3 +2,7 @@
 	path = oklumahmut/submodule
 	url = https://github.com/mahmutoklu/oklumahmut.github.io.git
 	branch = main
+[submodule "oklumahmut/public"]
+	path = oklumahmut/public
+	url = https://github.com/mahmutoklu/oklumahmut.github.io.git
+	branch = main

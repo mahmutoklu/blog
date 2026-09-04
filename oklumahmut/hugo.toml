@@ -1,0 +1,4 @@
+baseURL = 'https://oklumahmut.github.io/'
+locale = 'en-us'
+title = 'Mahmut Oklu Blog'
+theme = 'LoveIt'
