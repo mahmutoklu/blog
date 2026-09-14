@@ -1,6 +1,6 @@
-baseURL = 'https://oklumahmut.github.io/'
+baseURL = 'https://mahmutoklu.github.io/'
 locale = 'en-us'
-title = 'Mahmut Oklu Blog'
+title = 'Mahmut Oklu Technical Blog'
 theme = 'LoveIt'
 
 [params]
