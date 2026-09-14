@@ -2,3 +2,31 @@ baseURL = 'https://oklumahmut.github.io/'
 locale = 'en-us'
 title = 'Mahmut Oklu Blog'
 theme = 'LoveIt'
+
+[params]
+
+  [params.author]
+    name = 'Mahmut Oklu'
+    email = ''
+    link = ''
+
+  [params.home]
+    [params.home.profile]
+      enable = true
+      title = 'Mahmut Oklu'
+      subtitle = 'Welcome to my blog'
+      typeit = true
+      social = true
+
+  [params.social]
+    GitHub = 'oklumahmut'
+    X = ''
+    Twitter = ''
+    Linkedin = ''
+    Googlescholar = ''
+    Researchgate = ''
+    Instagram = ''
+    Youtubechannel = ''
+    Email = ''
+    RSS = true
+
