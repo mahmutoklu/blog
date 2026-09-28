@@ -14,19 +14,19 @@ theme = 'LoveIt'
     [params.home.profile]
       enable = true
       title = 'Mahmut Oklu'
-      subtitle = 'Welcome to my blog'
+      subtitle = 'System Admin'
       typeit = true
       social = true
-
+      avatarURL = "/Users/mahmutoklu/Documents/mahmutoklu.jpg"
   [params.social]
     GitHub = 'oklumahmut'
     X = ''
     Twitter = ''
-    Linkedin = ''
+    Linkedin = 'https://www.linkedin.com/in/mahmut-oklu/'
     Googlescholar = ''
     Researchgate = ''
-    Instagram = ''
+    Instagram = 'mahmutoklu'
     Youtubechannel = ''
-    Email = ''
+    Email = 'oklumahmut@hotmail.com'
     RSS = true
 
