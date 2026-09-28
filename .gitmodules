@@ -1,8 +1,7 @@
-[submodule "oklumahmut/submodule"]
-	path = oklumahmut/submodule
-	url = https://github.com/mahmutoklu/oklumahmut.github.io.git
-	branch = main
 [submodule "oklumahmut/public"]
 	path = oklumahmut/public
-	url = https://github.com/mahmutoklu/oklumahmut.github.io.git
+	url = https://github.com/mahmutoklu/mahmutoklu.github.io.git
 	branch = main
+[submodule "oklumahmut/themes/LoveIt"]
+	path = oklumahmut/themes/LoveIt
+	url = https://github.com/dillonzq/LoveIt.git
