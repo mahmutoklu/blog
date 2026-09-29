@@ -17,7 +17,7 @@ theme = 'LoveIt'
       subtitle = 'System Admin'
       typeit = true
       social = true
-      avatarURL = "/Users/mahmutoklu/Documents/mahmutoklu.jpg"
+      avatarURL = "/images/mahmutoklu.jpeg"
   [params.social]
     GitHub = 'oklumahmut'
     X = ''
@@ -30,3 +30,32 @@ theme = 'LoveIt'
     Email = 'oklumahmut@hotmail.com'
     RSS = true
 
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    title = "Posts"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    title = "Projects"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    title = "About"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    title = "Home"
+    weight = 0
