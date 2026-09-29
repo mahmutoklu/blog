@@ -68,4 +68,4 @@ theme = 'LoveIt'
 
   [params.header]
     [params.header.title]
-      name = "Mahmut Oklu"
+      name = ""
