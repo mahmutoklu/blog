@@ -19,7 +19,7 @@ theme = 'LoveIt'
       social = true
       avatarURL = "/images/mahmutoklu.jpeg"
   [params.social]
-    GitHub = 'oklumahmut'
+    GitHub = 'https://github.com/mahmutoklu'
     X = ''
     Twitter = ''
     Linkedin = 'https://www.linkedin.com/in/mahmut-oklu/'
