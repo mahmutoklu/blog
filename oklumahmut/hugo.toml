@@ -59,3 +59,13 @@ theme = 'LoveIt'
     url = "/"
     title = "Home"
     weight = 0
+
+  description = "Mahmut Oklu Technical Blog"
+
+  [params.app]
+    title = "Mahmut Oklu Technical Blog"
+    noFavicon = false
+
+  [params.header]
+    [params.header.title]
+      name = "Mahmut Oklu"
