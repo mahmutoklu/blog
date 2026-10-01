@@ -10,6 +10,8 @@ description: "An end-to-end IoT and edge computing project designed to continuou
 
 An end-to-end IoT and edge computing project designed to continuously measure Wi-Fi link quality, ping latency, jitter, and packet loss, serving an interactive telemetry dashboard accessible globally via Tailscale Funnel.
 
+**GitHub Repository:** [https://github.com/mahmutoklu/pico-w-internet-monitor](https://github.com/mahmutoklu/pico-w-internet-monitor)
+
 ---
 
 ## 📌 Background: What is the Raspberry Pi Pico W?
