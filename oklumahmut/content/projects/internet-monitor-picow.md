@@ -8,13 +8,13 @@ categories: ["Projects"]
 description: "An end-to-end IoT and edge computing project designed to continuously measure Wi-Fi link quality, ping latency, jitter, and packet loss, serving an interactive telemetry dashboard accessible globally via Tailscale Funnel."
 ---
 
-An end-to-end IoT and edge computing project designed to continuously measure Wi-Fi link quality, ping latency, jitter, and packet loss, serving an interactive telemetry dashboard accessible globally via Tailscale Funnel.
-
 **GitHub Repository:** [https://github.com/mahmutoklu/pico-w-internet-monitor](https://github.com/mahmutoklu/pico-w-internet-monitor)
+
+An end-to-end IoT and edge computing project designed to continuously measure Wi-Fi link quality, ping latency, jitter, and packet loss, serving an interactive telemetry dashboard accessible globally via Tailscale Funnel.
 
 ---
 
-## 📌 Background: What is the Raspberry Pi Pico W?
+##  Background: What is the Raspberry Pi Pico W?
 
 The **Raspberry Pi Pico W** is a high-performance, ultra-low-cost ($6) microcontroller development board designed by Raspberry Pi:
 * **Microcontroller vs. SBC:** Unlike a standard Single Board Computer (such as a Raspberry Pi 4 or 5) which boots a full operating system like Linux, the Pico W is a "bare-metal" microcontroller. It executes code directly on hardware with zero operating system overhead, typically programmed via MicroPython or C/C++.
@@ -165,27 +165,16 @@ By integrating modern encrypted overlay networking, the deployment is structured
 
 I transitioned the project from the microcontroller to Linux edge deployment with Antigravity:
 
-> **User Prompt:**  
-> *"Deploy the Pico W internet monitor project I made to one of the Raspberry Pis at home. Make it accessible via Tailscale and connect to it from outside the house. In other words, connect to the RPi from outside the house and use this application."*  
-> *"I will deploy it to pi zero 2 w"*
-
 **Antigravity's Contribution:**
 - Refactored the core socket binding to `0.0.0.0:8080` in `pi_monitor.py` so the service could accept incoming VPN traffic.
 - Outlined the deployment pipeline via `scp`, SSH configuration, and service execution on the Pi Zero 2 W.
 
 When understanding the networking parameters:
 
-> **User Prompt:**  
-> *"tailscale ip -4) meaning?"*
-
 **Antigravity's Contribution:**
 - Explained CGNAT address spaces (`100.x.y.z`), VPN mesh routing, and how peer-to-peer WireGuard tunnels operate across NAT barriers.
 
 When enabling public sharing without requiring VPN client installation on guest devices:
-
-> **User Prompt:**  
-> *"How can other users see this online internet monitoring tool without same tailscale account?"*  
-> *"how can i Go to Access Controls / Settings and ensure Funnel is enabled for your account for this problem"*
 
 **Antigravity's Contribution:**
 - Configured the Tailscale Access Control Policy (ACL) by adding the required `nodeAttrs` block for Funnel enablement.
